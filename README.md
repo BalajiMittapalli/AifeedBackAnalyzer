@@ -128,22 +128,23 @@ python gradio_api_server.py
 
 ## 🖼️ UI Pages Overview
 - 📝 Feedback Dashboard
-- 
+  
 ![image](https://github.com/user-attachments/assets/869109db-ba7b-4704-bb86-1578013f944d)
 
 
 - 📚 Feedback History
-- 
+  
   ![image](https://github.com/user-attachments/assets/4a8f8eed-1cc9-4aba-a22d-c178c70abb9b)
   
 
 - 📊 Visualization Reports
-- 
+  
   ![image](https://github.com/user-attachments/assets/27fc4232-1f3c-41a2-9dad-6c2aea849e0e)
 
 - 📈 Analysis Page
 
-  ![Uploading image.png…]()
+  ![image](https://github.com/user-attachments/assets/df4387f5-d2fc-4683-b6d2-bdcea2983173)
+
 
 
 ## ✨ Additional Features
