@@ -1,0 +1,10 @@
+transformers
+accelerate
+torch
+gradio
+fastapi
+uvicorn
+pydantic
+gradio_client
+pymongo
+bson
