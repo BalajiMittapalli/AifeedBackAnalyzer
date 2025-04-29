@@ -46,19 +46,23 @@ Large-scale data generation with LLaMA 70B.
 Live model inference APIs with Gradio.
 
 🏗️ Project Architecture
+![image](https://github.com/user-attachments/assets/52fb6ef1-65ce-483a-b66c-f3c45e88e75e)
+
 
 🚀 Tech Stack
 
-Category	Technology/Tool	Purpose
-Frontend	React.js, Next.js, lucide-react	Web application UI and visualization
-Backend	Node.js, Express, FastAPI	Server-side logic
-Database	MongoDB	Data storage and management
-Model Training Framework	PyTorch	Building and training ML models
-LLM Fine-tuning	Unsloth, LoRA	Efficient LLM fine-tuning
-Sentiment Analysis Model	DeBERTa	Sentiment classification
-Genuinity Detection Model	DeBERTa + Monarch Butterfly Optimization	Authenticity detection
-Data Generation	LLaMA 70B	Synthetic data generation
-API Deployment	Gradio	Model inference hosting
+| Category                | Technology/Tool                          | Purpose                                  |
+|--------------------------|------------------------------------------|------------------------------------------|
+| Frontend                 | React.js, Next.js, lucide-react          | Web application UI and visualization    |
+| Backend                  | Node.js, Express, FastAPI                | Server-side logic                       |
+| Database                 | MongoDB                                  | Data storage and management             |
+| Model Training Framework | PyTorch                                  | Building and training ML models         |
+| LLM Fine-tuning          | Unsloth, LoRA                            | Efficient LLM fine-tuning               |
+| Sentiment Analysis Model | DeBERTa                                  | Sentiment classification                |
+| Genuinity Detection Model| DeBERTa + Monarch Butterfly Optimization | Authenticity detection                  |
+| Data Generation          | LLaMA 70B                                | Synthetic data generation               |
+| API Deployment           | Gradio                                   | Model inference hosting                 |
+
 📂 Project Structure
 /review-analysis     → React frontend for submission, history, visualization
 /backend              → Node.js API server (routes, models, database)
@@ -98,8 +102,6 @@ requirements.txt: Lists Python dependencies.
 Run gradio_api_server.py manually to get a live Gradio link.
 
 Update the new Gradio link inside main.py manually each time.
-Architecture
-![image](https://github.com/user-attachments/assets/952f9ba9-f3a4-43a6-a206-ede67f183d78)
 
 
 🔄 Workflow Summary
@@ -115,36 +117,37 @@ Architecture
 
 🛠️ Execution Commands
 Frontend
-bash
-Copy
-Edit
 cd review-analysis
 npm install
 npm run dev
 
 Backend
-bash
-Copy
-Edit
 cd backend
 npm install
 npm start
 
 Python Backend
-bash
-Copy
-Edit
 cd pythonBackend
 pip install -r requirements.txt
 uvicorn main:app --host 0.0.0.0 --port 8000
+
 Start Gradio Server
-bash
-Copy
-Edit
 python gradio_api_server.py
 
 (Remember to update the Gradio URL manually in main.py!)
 
+🖼️ UI Pages Overview
+📝 Feedback Dashboard
+![image](https://github.com/user-attachments/assets/431ddb58-424c-4d66-bdf8-599dcebf30e3)
+
+📚 Feedback History
+![image](https://github.com/user-attachments/assets/8759e121-4dcf-459d-8ce9-da6650c98894)
+
+📊 Visualization Reports
+![image](https://github.com/user-attachments/assets/e2fd245d-d39a-44ea-8196-a603e4bf6754)
+
+📈 Analysis Page
+![image](https://github.com/user-attachments/assets/249a2a2c-edb9-450b-b26c-753ea0f22167)
 
 ✨ Additional Features
 🛒 Category-wise Product Feedback
