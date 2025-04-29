@@ -1,5 +1,6 @@
 
 🎯 Feedback Authenticity: Distinguishing Genuine from Fake Reviews + Sentiment Analysis
+
 📄 Project Description
 This project is an advanced Review Analyzer that detects both the authenticity and sentiment of user feedback.
 It offers interactive dashboards, dynamic visualizations, and real-time insights.
