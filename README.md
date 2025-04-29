@@ -11,7 +11,7 @@ Frontend: React.js, Next.js
 
 Backend: Node.js, Express
 
-Machine Learning Models: PyTorch (using Unsloth, LoRA, MBO)
+Machine Learning Models: PyTorch (using DeBERTa,MBO, Unsloth, LoRA)
 
 🧠 Genuinity Detection: Fine-tuned DeBERTa model + Monarch Butterfly Optimization (MBO)
 🗣️ Sentiment Analysis: Standard DeBERTa model
@@ -60,12 +60,10 @@ Genuinity Detection Model	DeBERTa + Monarch Butterfly Optimization	Authenticity 
 Data Generation	LLaMA 70B	Synthetic data generation
 API Deployment	Gradio	Model inference hosting
 📂 Project Structure
-bash
-Copy
-Edit
 /review-analysis     → React frontend for submission, history, visualization
 /backend              → Node.js API server (routes, models, database)
 /pythonBackend        → Python backend for ML models and Gradio APIs
+
 🎨 Frontend (review-analysis)
 📝 Feedback Dashboard: Submit new feedback.
 
@@ -100,6 +98,9 @@ requirements.txt: Lists Python dependencies.
 Run gradio_api_server.py manually to get a live Gradio link.
 
 Update the new Gradio link inside main.py manually each time.
+Architecture
+![image](https://github.com/user-attachments/assets/952f9ba9-f3a4-43a6-a206-ede67f183d78)
+
 
 🔄 Workflow Summary
 🖊️ User submits feedback via frontend.
